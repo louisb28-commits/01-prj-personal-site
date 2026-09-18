@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Brianna Louis</title> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+
 <body>
-  <!-- Add your HTML content here -->
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <div class="logo">BL</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image-circle">
+                    <img src="avatar.jpg" alt="Brianna Louis" class="hero-image">
+                </div>
+
+                <div class="hero-text">
+                    <h1>Brianna Louis</h1>
+                    <p>Web Developer & Artist</p>
+                    <p>Scroll down to learn about me!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section-card">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Brianna Louis, and I am a passionate web developer and artist. 
+                I love creating beautiful and functional websites that provide great user experiences. 
+                In my free time, I enjoy exploring new technologies and improving my skills in both 
+                web development and art.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-card">
+            <h2>Skills</h2>
+            <p class="section-subtitle">Tools of the trade</p>
+
+            <div class="skills-grid">
+                <div class="skill-pill">HTML</div>
+                <div class="skill-pill">CSS</div>
+                <div class="skill-pill">JavaScript</div>
+                <div class="skill-pill">C++</div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-card">
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <h3>Project 1:Genesis</h3>
+                    <p>
+                        Currently working on a project called Genesis, 
+                        which is a game centering around the biblical character of Adam.
+                        The game centers around Adam,who just revived from the dead and is trying
+                        to find his way out of Eden and back to Earth to find his children;However the animals abandoned there
+                        are trying to kill him and angels are patrolling the garden so he must be careful and use his wits to survive and escape the garden.
+                    </p>
+
+                    <div class="project-links">
+                        <a href="#" class="btn-outline">GitHub</a>
+                        <a href="#" class="btn-solid">Demo</a>
+
+                    
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span>BL 2025</span>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
